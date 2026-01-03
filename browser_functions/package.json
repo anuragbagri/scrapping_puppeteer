@@ -1,0 +1,21 @@
+{
+  "name": "browser_functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -b",
+    "start": "node",
+    "dev": "npm run build && npm run start dist/  (incomplete)"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "puppeteer": "^24.34.0"
+  }
+}
